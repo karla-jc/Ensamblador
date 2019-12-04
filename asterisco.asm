@@ -1,9 +1,9 @@
 section .data
-	msj db 'Desplegar los asteriscos 9 veces', 10
+	msj db 'Desplegar asteriscos 9 veces', 10
 	len equ $-msj
 	asterisco times 9 db '*', 10 ;times ->se repetira 9 veces *
 	len_asterisco equ $-asterisco 
-
+;actualizacion
 section .text
 	global _start
 
